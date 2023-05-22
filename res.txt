@@ -1,0 +1,19 @@
+start {
+  ServerSideEncryption: 'AES256',
+  Bucket: 'limelite-staging-s3',
+  Key: 'ML/MediaLibrary/5e845aac-2d6a-443e-ab4f-4ce2fe31ead5.mp4',
+  UploadId: 'FdXT0iJOH69VWfmArYBUdrE0gkqCo33StEfdUH_3ezepJEFf.uVdaMQ2CTDy1AK8yZXRb.SDrk3mbzGqdwtIielKQ_QYQ2NhjdKweyzkug9mJ_HaSTlNlk4mR4r5ZAvy'
+}
+signedUrls {
+  parts: [
+    {
+      signedUrl: 'https://limelite-staging-s3.s3.amazonaws.com/ML/MediaLibrary/5e845aac-2d6a-443e-ab4f-4ce2fe31ead5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5OFHLZYRY4E77JLP%2F20230522%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230522T154610Z&X-Amz-Expires=900&X-Amz-Signature=687cf52bfb4d84f96931b53b0c49244e713f2ba6fda2b40cb1f11e9f467abf2d&X-Amz-SignedHeaders=host&partNumber=1&uploadId=FdXT0iJOH69VWfmArYBUdrE0gkqCo33StEfdUH_3ezepJEFf.uVdaMQ2CTDy1AK8yZXRb.SDrk3mbzGqdwtIielKQ_QYQ2NhjdKweyzkug9mJ_HaSTlNlk4mR4r5ZAvy',
+      PartNumber: 1
+    },
+    {
+      signedUrl: 'https://limelite-staging-s3.s3.amazonaws.com/ML/MediaLibrary/5e845aac-2d6a-443e-ab4f-4ce2fe31ead5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5OFHLZYRY4E77JLP%2F20230522%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230522T154610Z&X-Amz-Expires=900&X-Amz-Signature=a2c616417f726e47783d4005de1c6db63e7aad5b8e40afbbfc30540ee8a99e36&X-Amz-SignedHeaders=host&partNumber=2&uploadId=FdXT0iJOH69VWfmArYBUdrE0gkqCo33StEfdUH_3ezepJEFf.uVdaMQ2CTDy1AK8yZXRb.SDrk3mbzGqdwtIielKQ_QYQ2NhjdKweyzkug9mJ_HaSTlNlk4mR4r5ZAvy',
+      PartNumber: 2
+    }
+  ]
+}
+chunk <Buffer 00 00 00 20 66 74 79 70 6d 70 34 32 00 00 00 00 6d 70 34 32 6d 70 34 31 69 73 6f 6d 61 76 63 31 00 00 4a 63 6d 6f 6f 76 00 00 00 6c 6d 76 68 64 00 00 ... 5242830 more bytes>
